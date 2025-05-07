@@ -1,0 +1,34 @@
+# Network Meta-Analysis (NMA) Based on Balduzzi et al., 2023
+
+This repository contains the R code for conducting a Network Meta-Analysis (NMA) using the `netmeta` package, as inspired by the methodology outlined in **Balduzzi et al. (2023)**.
+
+
+
+---
+
+## Objective
+
+To perform a network meta-analysis using odds ratios (ORs) for comparing multiple treatments across different studies. The script also generates network graphs, forest plots, rankograms, and league tables, and assesses inconsistency and heterogeneity.
+
+---
+
+## Project Structure
+
+├── NMA_script.Rmd # R Markdown file for the NMA analysis
+├── netgraph.png # Network graph image
+├── forestplot.png # Forest plot image
+├── rankgram.png # Rankogram image
+├── league.csv # League table of treatment comparisons
+├── YourData.xlsx # Input Excel file (not included here)
+└── README.md # This file
+
+## Required Packages
+
+Make sure the following R packages are installed:
+
+```r
+install.packages("netmeta")
+install.packages("readxl")
+
+
+
